@@ -1,0 +1,12 @@
+build:
+  gpu: true
+  python_version: "3.10"
+  python_packages:
+    - torch
+    - diffusers
+    - transformers
+    - accelerate
+    - safetensors
+    - xformers
+
+predict: "predict.py:Predictor"
